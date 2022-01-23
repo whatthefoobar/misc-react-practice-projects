@@ -14,11 +14,22 @@
   border: 2px solid black;
   border-radius: 5px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
   font-size: 27px;
   text-transform: capitalize;
+}
+.addForm {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.addForm label {
+  position: absolute;
+  left: -99999px;
 }
 
 .addForm input {
@@ -26,4 +37,13 @@
   height: 40px;
   font-size: 18px;
   border-radius: 5px;
+}
+
+.addForm button {
+  font-size: 20px;
+  padding: 4px;
+  border-radius: 5px;
+
+  /* background-color: rgb(100, 92, 92);
+  color: #fff; */
 }
